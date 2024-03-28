@@ -2,7 +2,39 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
     <gradient
-        android:angle="45"
-        android:endColor="#fafcc4"
-        android:startColor="#ffc400" />
+        android:startColor="#F70202"
+        android:centerColor="#EFA28A"
+        android:endColor="#0602FC"
+        android:angle="45"/>
+    <corners android:radius="8dp"/>
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF"/>
 </shape>
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+    &lt;!&ndash;    <gradient
+            android:angle="45"
+            android:centerColor="#8BC34A"
+            android:centerX="0.5"
+            android:centerY="0.5"
+            android:endColor="#fafcc4"
+            android:gradientRadius="100dp"
+            android:startColor="#ffc400"
+            android:type="linear"
+            android:useLevel="false"
+
+
+            />
+        &ndash;&gt;
+
+        <gradient
+            android:startColor="#FF4081"
+            android:centerColor="#7C4DFF"
+            android:endColor="#536DFE"
+            android:angle="45"/>
+    </shape>
+    -->

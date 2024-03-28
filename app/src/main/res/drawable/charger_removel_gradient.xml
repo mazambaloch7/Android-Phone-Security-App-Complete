@@ -2,7 +2,32 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
     <gradient
-        android:angle="45"
-        android:endColor="#f2b8f8"
-        android:startColor="#e25ed5" />
+        android:angle="135"
+        android:startColor="#485461"
+        android:centerColor="#CB3BFF"
+        android:endColor="#0D283B" />
 </shape>
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <gradient
+            android:angle="135"
+            android:startColor="#4A00E0"
+            android:centerColor="#8E2DE2"
+            android:endColor="#FF7FD5" />
+    </shape>
+    -->
+
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <gradient
+            android:angle="45"
+            android:endColor="#f2b8f8"
+            android:startColor="#e25ed5" />
+    </shape>
+    -->

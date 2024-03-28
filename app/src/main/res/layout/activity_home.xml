@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.drawerlayout.widget.DrawerLayout
@@ -72,10 +73,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp">
 
+
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/intuder_main"
                         android:layout_width="150dp"
-                        android:layout_height="170dp"
+                        android:layout_height="190dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginBottom="16dp"
@@ -90,7 +92,7 @@
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cardView"
                             android:layout_width="match_parent"
-                            android:layout_height="100dp"
+                            android:layout_height="130dp"
                             android:layout_margin="4dp"
                             app:cardCornerRadius="10dp"
                             app:cardElevation="3dp"
@@ -99,7 +101,8 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="100dp"
+                                android:layout_height="130dp"
+                                android:padding="@dimen/_5sdp"
                                 android:background="@drawable/intruder_gradient">
 
                                 <androidx.appcompat.widget.SwitchCompat
@@ -132,7 +135,8 @@
                             android:textColor="@color/txtcolor"
                             app:layout_constraintEnd_toStartOf="@+id/imgbtn1"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent" />
 
                         <ImageButton
                             android:id="@+id/imgbtn1"
@@ -150,7 +154,7 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/antitouch_main"
                         android:layout_width="150dp"
-                        android:layout_height="170dp"
+                        android:layout_height="190dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="16dp"
@@ -165,7 +169,7 @@
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cardView3"
                             android:layout_width="match_parent"
-                            android:layout_height="100dp"
+                            android:layout_height="130dp"
                             android:layout_margin="4dp"
                             app:cardCornerRadius="10dp"
                             app:cardElevation="3dp"
@@ -174,7 +178,8 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="100dp"
+                                android:layout_height="130dp"
+                                android:padding="@dimen/_5sdp"
                                 android:background="@drawable/anti_touch_gradient">
 
                                 <androidx.appcompat.widget.SwitchCompat
@@ -206,7 +211,9 @@
                             android:textColor="@color/txtcolor"
                             app:layout_constraintEnd_toStartOf="@+id/imgbtn4"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            />
 
                         <ImageButton
                             android:id="@+id/imgbtn4"
@@ -224,7 +231,7 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/wrongpassword_main"
                         android:layout_width="150dp"
-                        android:layout_height="170dp"
+                        android:layout_height="190dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="16dp"
                         android:background="@drawable/home_menu_bg"
@@ -237,7 +244,7 @@
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cardView5"
                             android:layout_width="match_parent"
-                            android:layout_height="100dp"
+                            android:layout_height="130dp"
                             android:layout_margin="4dp"
                             app:cardCornerRadius="10dp"
                             app:cardElevation="3dp"
@@ -246,7 +253,9 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="100dp"
+                                android:layout_height="130dp"
+                                android:padding="@dimen/_5sdp"
+
                                 android:background="@drawable/wrong_pass_gradient">
 
                                 <androidx.appcompat.widget.SwitchCompat
@@ -277,7 +286,10 @@
                             android:textColor="@color/txtcolor"
                             app:layout_constraintEnd_toStartOf="@+id/imgbtn5"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/cardView5" />
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+
+                            />
 
                         <ImageButton
                             android:id="@+id/imgbtn5"
@@ -297,7 +309,7 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/chargingremovel_main"
                         android:layout_width="150dp"
-                        android:layout_height="170dp"
+                        android:layout_height="190dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginEnd="8dp"
                         android:background="@drawable/home_menu_bg"
@@ -309,8 +321,8 @@
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cardView6"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
+                            android:layout_width="141dp"
+                            android:layout_height="113dp"
                             android:layout_margin="4dp"
                             app:cardCornerRadius="10dp"
                             app:cardElevation="3dp"
@@ -319,7 +331,9 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="100dp"
+                                android:layout_height="130dp"
+                                android:padding="@dimen/_5sdp"
+
                                 android:background="@drawable/charger_removel_gradient">
 
                                 <androidx.appcompat.widget.SwitchCompat
@@ -371,7 +385,7 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/batteryalert_main"
                         android:layout_width="150dp"
-                        android:layout_height="170dp"
+                        android:layout_height="190dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="16dp"
                         android:background="@drawable/home_menu_bg"
@@ -384,7 +398,7 @@
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cardView7"
                             android:layout_width="match_parent"
-                            android:layout_height="100dp"
+                            android:layout_height="130dp"
                             android:layout_margin="4dp"
                             app:cardCornerRadius="10dp"
                             app:cardElevation="3dp"
@@ -393,7 +407,8 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="100dp"
+                                android:layout_height="130dp"
+                                android:padding="@dimen/_5sdp"
                                 android:background="@drawable/batterygradient">
 
                                 <androidx.appcompat.widget.SwitchCompat
@@ -424,7 +439,10 @@
                             android:textColor="@color/txtcolor"
                             app:layout_constraintEnd_toStartOf="@+id/imgbtn7"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/cardView7" />
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+
+                            />
 
                         <ImageButton
                             android:id="@+id/imgbtn7"
@@ -444,7 +462,7 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/pocketalram_main"
                         android:layout_width="150dp"
-                        android:layout_height="170dp"
+                        android:layout_height="190dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginEnd="8dp"
                         android:background="@drawable/home_menu_bg"
@@ -457,7 +475,7 @@
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cardView4"
                             android:layout_width="match_parent"
-                            android:layout_height="100dp"
+                            android:layout_height="130dp"
                             android:layout_margin="4dp"
                             app:cardCornerRadius="10dp"
                             app:cardElevation="3dp"
@@ -466,7 +484,9 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="100dp"
+                                android:layout_height="130dp"
+
+                                android:padding="@dimen/_5sdp"
                                 android:background="@drawable/pocketalram_gradient">
 
                                 <androidx.appcompat.widget.SwitchCompat

@@ -305,21 +305,25 @@ public class HomeActivity extends AppCompatActivity implements IHomePresenter, S
     public boolean HomeActivity22(MenuItem menuItem) {
         this.homeBinding.drawerLayout.closeDrawers();
         switch (menuItem.getItemId()) {
-            case R.id.nav_privcy:
-                new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
-                    @Override
-                    public final void run() {
-                        HomeActivity.this.HomeActivity24();
-                    }
-                }, 300L);
-                return true;
             case R.id.nav_rate:
-                new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                //show toast
+                Toast.makeText(this, "Rate Us is under progress", Toast.LENGTH_SHORT).show();
+/*                new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
                     @Override
                     public final void run() {
                         HomeActivity.this.HomeActivity23();
                     }
-                }, 300L);
+                }, 300L);*/
+                return true;
+            case R.id.nav_privcy:
+                // show Toast
+                Toast.makeText(this, "Privacy Policy is under progress", Toast.LENGTH_SHORT).show();
+/*                new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                    @Override
+                    public final void run() {
+                        HomeActivity.this.HomeActivity24();
+                    }
+                }, 300L);*/
                 return true;
             case R.id.nav_share:
                 Constants.shareApp(this);
